@@ -4,8 +4,8 @@ import work1 from "../assets/work-1-img.png";
 const works = [
   {
     title: "Crypto dashboard",
-    description:
-      "Dashboard that shows the current prices of your favorite cryptocurrencies",
+    description: `Dashboard that shows the current prices of your favorite cryptocurrencies, I'm planning to add functionalities on this project to have login and save your dashboard state
+      based on your cryptocurrency needs.`,
     previewImage: work1,
     technologies: [
       "Angular",
@@ -21,10 +21,10 @@ const works = [
 ];
 const Works = () => {
   return (
-    <section className="work-section">
-      <div  className="works-container h-screen">
+    <section id="projects" className="work-section">
+      <div className="works-container h-screen">
         <div className="header mb-9">
-          <p className="text-4xl text-center mb-2">Work</p>
+          <p className="text-4xl text-center mb-2">My Recent Projects</p>
           <div className="text-center">
             <p>Check my commercial and non-commercial projects,</p>
             <p>
