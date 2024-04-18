@@ -1,10 +1,29 @@
 import React from "react";
 import work1 from "../assets/work-1-img.png";
+import work2 from "../assets/work-2-img.jpeg";
+import work3 from "../assets/work-3-img.jpeg";
 
 const works = [
   {
-    title: "Crypto dashboard",
-    description: `Dashboard that shows the current prices of your favorite cryptocurrencies, I'm planning to add functionalities on this project to have login and save your dashboard state
+    title: "Catering Management",
+    description: `Catering management web application revolutionizing event organization by streamlining tasks such as data maintenance, event booking, contract generation, and report generation.`,
+    previewImage: work3,
+    technologies: [
+      "Angular",
+      "PrimeNG",
+      "NodeJS",
+      "NestJS",
+      "MongoDB",
+      "Microsoft Azure DevOps",
+      "Google Compute Engine",
+      "Google Cloud Storage",
+    ],
+    link: "",
+    repositoryLink: "",
+  },
+  {
+    title: "Crypto-dashboard",
+    description: `Sandbox project that shows the current prices of your favorite cryptocurrencies, I'm planning to add functionalities on this project to have login and save your dashboard state
       based on your cryptocurrency needs.`,
     previewImage: work1,
     technologies: [
@@ -16,6 +35,14 @@ const works = [
       "CoinGecko API",
     ],
     link: "https://crypto-dash-2400a.web.app/",
+    repositoryLink: "",
+  },
+  {
+    title: "Macktails",
+    description: `Online menu for a mocktail business, seamlessly blending creativity and functionality to provide users with an enticing platform to explore an array of refreshing mocktail offerings.`,
+    previewImage: work2,
+    technologies: ["React JS", "Materialize CSS", "Github Deployments"],
+    link: "https://macktails-menu.github.io/",
     repositoryLink: "",
   },
 ];
@@ -39,7 +66,7 @@ const Works = () => {
             return (
               <div
                 key={work.title}
-                className="work-container md:w-10/12 sm:w-full m-auto border-"
+                className="work-container md:w-6/12 sm:w-full m-auto  pb-9"
               >
                 <div className="work-header text-3xl p-2 bg-gray-700 text-center text-white underline">
                   {work.title}
