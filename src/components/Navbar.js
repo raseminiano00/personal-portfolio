@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav className="z-10 fixed w-screen flex justify-center op-0 bg-white">
+    <nav className="z-10  w-screen flex justify-center op-0 bg-white">
       <ul className="flex">
         <li className="p-8 text-xl font-light hover:cursor-pointer hover:bg-gray-200">
           <Link

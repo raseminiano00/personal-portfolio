@@ -79,7 +79,7 @@ const Works = () => {
                   ></img>
                 </a>
                 <div className="text-center mt-3 mb-2">{work.description}</div>
-                <div className="flex justify-center gap-2">
+                <div className="flex flex-wrap justify-center gap-2">
                   {work.technologies.map((tech) => {
                     return (
                       <span
