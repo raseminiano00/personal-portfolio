@@ -49,7 +49,7 @@ const works = [
 const Works = () => {
   return (
     <section id="projects" className="work-section">
-      <div className="works-container h-screen">
+      <div className="works-container">
         <div className="header mb-9">
           <p className="text-4xl text-center mb-2">My Recent Projects</p>
           <div className="text-center">
@@ -68,7 +68,7 @@ const Works = () => {
                 key={work.title}
                 className="work-container md:w-6/12 sm:w-full m-auto  pb-9"
               >
-                <div className="work-header text-3xl p-2 bg-gray-700 text-center text-white underline">
+                <div className="work-header text-3xl p-2 bg-gray-700 text-center text-white">
                   {work.title}
                 </div>
                 <a href={work.link} target="_new">

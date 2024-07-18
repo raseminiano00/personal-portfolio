@@ -3,31 +3,24 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav className="z-10  w-screen flex justify-center op-0 bg-white">
+    <nav className="z-10  absolute w-screen flex justify-center op-0 bg-white">
       <ul className="flex">
-        <li className="p-8 text-xl font-light hover:cursor-pointer hover:bg-gray-200">
+        <li className="m-8 text-xl font-light hover:cursor-pointer hover:font-normal">
           <Link
-            to="about"
+            to="about-me"
             spy={true}
             smooth={true}
-            offset={-100}
             duration={500}
           >
             About Me
           </Link>
         </li>
-        <li className="p-8 text-xl font-light hover:cursor-pointer hover:bg-gray-200">
-          <Link
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
+        <li className="m-8 text-xl font-light hover:cursor-pointer hover:font-normal">
+          <Link to="projects" spy={true} smooth={true} duration={500}>
             My Projects
           </Link>
         </li>
-        <li className="p-8 text-xl font-light hover:cursor-pointer hover:bg-gray-200">
+        <li className="m-8 text-xl font-light hover:cursor-pointer hover:font-normal">
           Reach Me
         </li>
       </ul>
