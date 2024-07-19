@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.c582d6e3.css",
-    "main.js": "/personal-portfolio/static/js/main.1cc034af.js",
+    "main.css": "/personal-portfolio/static/css/main.ad5e2473.css",
+    "main.js": "/personal-portfolio/static/js/main.8a78e70b.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/work-2-img.jpeg": "/personal-portfolio/static/media/work-2-img.a871612a62eb33ecbfc1.jpeg",
+    "static/media/linkedin.png": "/personal-portfolio/static/media/linkedin.b0256e639e017e2a7389.png",
+    "static/media/memoji.png": "/personal-portfolio/static/media/memoji.bac50251201bbfa8195e.png",
     "static/media/work-3-img.jpeg": "/personal-portfolio/static/media/work-3-img.9cca1ff80d9dbd6a4b12.jpeg",
-    "static/media/work-1-img.png": "/personal-portfolio/static/media/work-1-img.69b3a40279e9e1e41dda.png",
+    "static/media/roi-angelo-seminiano.pdf": "/personal-portfolio/static/media/roi-angelo-seminiano.c69f9f9b13200584b734.pdf",
+    "static/media/db.png": "/personal-portfolio/static/media/db.d3dd03ef88be5f14e9f7.png",
+    "static/media/email.png": "/personal-portfolio/static/media/email.2b7109d2da77e1670cf7.png",
+    "static/media/ph-icon.png": "/personal-portfolio/static/media/ph-icon.fba3eb79466bd886ad31.png",
+    "static/media/nodejs.png": "/personal-portfolio/static/media/nodejs.9fea1c7da2bd42ab93bf.png",
+    "static/media/git.png": "/personal-portfolio/static/media/git.e8300bef2a676bd8e546.png",
+    "static/media/angular.png": "/personal-portfolio/static/media/angular.eb61c8fa009d1215b265.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.c582d6e3.css.map": "/personal-portfolio/static/css/main.c582d6e3.css.map",
-    "main.1cc034af.js.map": "/personal-portfolio/static/js/main.1cc034af.js.map",
+    "main.ad5e2473.css.map": "/personal-portfolio/static/css/main.ad5e2473.css.map",
+    "main.8a78e70b.js.map": "/personal-portfolio/static/js/main.8a78e70b.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c582d6e3.css",
-    "static/js/main.1cc034af.js"
+    "static/css/main.ad5e2473.css",
+    "static/js/main.8a78e70b.js"
   ]
 }
