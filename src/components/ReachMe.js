@@ -7,7 +7,7 @@ const ReachMe = () => {
   return (
     <section
       id="reach-me"
-      className="h-[180px] md:max-h-[1200px] mt-24 bg-neutral-100 "
+      className="h-[180px] mt-16 bg-neutral-100"
     >
       <div className="flex justify-center size-full pt-8">
         <div class="w-5/12 my-auto flex items-center flex-col gap-2">

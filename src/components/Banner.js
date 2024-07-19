@@ -11,9 +11,9 @@ const Banner = () => {
   };
 
   return (
-    <section className="banner-section h-[900px] max-h-[1200px] grid grid-cols-12">
-      <div className="col-start-3 col-span-8">
-        <div className="pt-72 h-4/5 ml-auto mr-auto max-w-screen-lg items-center md:pt-40 md:flex md:flex-row md:justify-between">
+    <section className="banner-section h-[680px] grid grid-cols-12">
+      <div className="col-start-3 col-span-8 my-auto">
+        <div className=" h-4/5 ml-auto mr-auto max-w-screen-lg items-center md:flex md:flex-row md:justify-between">
           <div className="flex flex-col gap-4">
             <h1 className="text-5xl flex-grow">Hello, I'm Roi </h1>
             <h1 className="text-5xl flex-grow mb-6">a JavaScript Developer</h1>

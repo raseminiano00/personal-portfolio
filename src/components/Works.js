@@ -33,12 +33,12 @@ const Works = () => {
   return (
     <section
       id="projects"
-      className="about-me-section md:max-h-[1200px] grid grid-cols-12"
+      className="about-me-section mt-24 h-fit grid grid-cols-12"
     >
-      <div className="col-start-2 col-span-10">
-        <div className="flex flex-col ml-auto mr-auto max-w-screen-lg pt-24">
-          <p className="text-4xl mb-8">My Projects</p>
-          <div className="mb-8">
+      <div className="col-start-2 col-span-10 my-auto">
+        <div className="flex flex-col ml-auto mr-auto max-w-screen-lg">
+          <p className="text-4xl mb-4">My Projects</p>
+          <div className="mb-4">
             <p className="text-md leading-8 text-left">
               Explore my portfolio of projects to see what I've accomplished. If
               you're curious about my NDA projects, feel free to ask or take a
@@ -46,23 +46,23 @@ const Works = () => {
             </p>
           </div>
 
-          <div className="flex flex-col gap-16">
+          <div className="flex flex-col gap-4">
             {works.map((work, i) => {
               return (
                 <div
                   key={i}
                   className={`py-6 px-6 bg-neutral-100 rounded-md max-w-screen-lg gap-5 md:flex md:flex-row md:justify-between ${
-                    i % 2 === 1 ? "md:flex-row-reverse" : ""
+                    i % 2 === 0 ? "md:flex-row-reverse" : ""
                   }`}
                 >
-                  <div className="md:w-2/3 md:h-[400px]">
+                  <div className="md:w-8/12 md:h-[400px]">
                     <img
-                      className="size-full"
+                      className="w-full h-full"
                       src={work.previewImage}
                       alt="work"
                     ></img>
                   </div>
-                  <div className="mt-3 md:mt-0 md:size-6/12 flex flex-col items-start">
+                  <div className="mt-3 md:mt-0 md:w-5/12 flex flex-col items-start">
                     <p className="text-lg mb-3">{work.title}</p>
                     <p className="text-sm leading-8 text-left mb-2">
                       {work.description}

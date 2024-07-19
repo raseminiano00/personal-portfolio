@@ -8,12 +8,12 @@ const AboutMe = () => {
   return (
     <section
       id="about-me"
-      className="about-me-section md:h-[900px] md:max-h-[1200px] grid grid-cols-12"
+      className="about-me-section h-fit grid grid-cols-12"
     >
-      <div className="col-start-2 col-span-10">
-        <div className="flex flex-col ml-auto mr-auto max-w-screen-lg pt-24">
-          <p className="text-4xl mb-8">About Me</p>
-          <div className="flex flex-col gap-10">
+      <div className="col-start-2 col-span-10 my-auto">
+        <div className="flex flex-col ml-auto mr-auto max-w-screen-lg ">
+          <p className="text-4xl mb-4">About Me</p>
+          <div className="flex flex-col gap-4">
             <div>
               <p className="text-md leading-8 text-left">
                 As a Front-End Developer Lead, I specialize in creating Single
