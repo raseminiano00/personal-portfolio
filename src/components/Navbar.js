@@ -6,12 +6,7 @@ const Navbar = () => {
     <nav className="z-10  absolute w-screen flex justify-center op-0 bg-white">
       <ul className="flex">
         <li className="m-8 text-xl font-light hover:cursor-pointer hover:font-normal">
-          <Link
-            to="about-me"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
+          <Link to="about-me" spy={true} smooth={true} duration={500}>
             About Me
           </Link>
         </li>
@@ -21,7 +16,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="m-8 text-xl font-light hover:cursor-pointer hover:font-normal">
-          Reach Me
+          <Link to="reach-me" spy={true} smooth={true} duration={500}>
+            Reach Me
+          </Link>
         </li>
       </ul>
     </nav>
